@@ -1,0 +1,15 @@
+{
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyArgs": [
+        "--follow-imports=silent",
+        "--ignore-missing-imports",
+        "--show-column-numbers",
+        "--pretty"
+    ],
+    "python.linting.mypyEnabled": true,
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "python.linting.pylintEnabled": false,
+    "python.formatting.blackPath": "black"
+}
